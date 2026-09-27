@@ -67,7 +67,7 @@ local function createEmbeddedSpider()
     )
     spider.TopSurface = Enum.SurfaceType.Smooth
     spider.Transparency = 0
-    spider.MeshId = "rbxassetid://85075668666322"
+    spider.MeshId = "rbxassetid://91068240600741"
     spider.TextureID = ""
     spider.DoubleSided = false
     spider.RenderFidelity = Enum.RenderFidelity.Automatic
@@ -908,10 +908,10 @@ chilliButton.BorderSizePixel = 0
 chilliButton.AutoButtonColor = sourceShop == nil or sourceShop.AutoButtonColor
 chilliButton.Image = sourceShop
     and sourceShop.Image
-    or "rbxassetid://85075668666322"
+    or "rbxassetid://91068240600741"
 chilliButton.HoverImage = sourceShop
     and sourceShop.HoverImage
-    or "rbxassetid://85075668666322"
+    or "rbxassetid://91068240600741"
 chilliButton.PressedImage = sourceShop and sourceShop.PressedImage or ""
 chilliButton.ImageColor3 = sourceShop
     and sourceShop.ImageColor3
